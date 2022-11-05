@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-image: url(/Fitness_img/banner.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center ;
+    text-align: right;
+    }
+    .navbar-nav li a{
+        color: white !important;
+    }
+    .navbar img {
+        width: 150px;
+    }
+    .welcome button{
+        background-color: rgb(106, 106, 209);
+        border-radius: 20px;
+    }
+    .welcome{
+        background-color: white;
+        padding: 50px 100px;
+        margin-top: -140px;
+        box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+        /* text-align: center; */
+    }
+    #about {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #about .col-md-6{
+        padding: 20px 40px ;
+    }
+    #about .col-md-6 img{
+        width: 590px;
+    }
+    #about .col-md-5 h3{ 
+        font-size: 25px;
+    }
+    #about .col-md-5 p{
+        font-size: 13px;
+    }
+    #about .col-md-5{
+        padding: 30px 20px ;
+    }
+    #services{
+        background-color: rgb(186, 177, 177);
+        padding: 50px 100px;
+        /* text-align: center; */
+    }
+    .col-md-4{
+        padding: 40px 30px ;
+        /* margin-right: 110px; */
+    }
+    .col-md-4 img{
+        width: 50px;
+    }
+    .col-md-4 h4{
+    font-size: 15px;
+    font-weight: 700;
+    }
+    #feature{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(/Fitness_img/feature-background.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #feature img{
+        padding-top: 60px;
+    }
+    .feature-box{
+        color: white;
+        padding: 40px 20px ;
+    }
+    .feature-right h4{
+        font-size: 20px;
+    }
+    .feature-right p{
+        font-size: 13px;
+    }
+    #ion{
+        font-size: 15px;
+    }
+    #testimony-text{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #testimony-text h3{
+        font-size: 25px;
+        color: blue;
+    }
+    #testimonal{
+        padding: 60px 20px;
+    }
+    .testimony-bubble{
+        width: 420px;
+        height: 430px;
+        padding: 50px 100px;
+        box-shadow: 0 0 10px 7px rgba(0,0,0,0.2);
+        border-radius: 20px;
+ 
+    }
+    .testimony-bubble-left img{
+        width: 50px;
+        border-radius: 50px;
+    }
+
+    #testimonal .col-md-4{
+      
+        padding: 10px 30px;
+        /* box-shadow: 0 0 10px 7px rgba(0,0,0,0.2); */
+ 
+    }
+    #testimonal img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin-top: -55px;
+        margin-left: -30px;
+    }
+    #testimonal .middle{
+        margin-top: -30px;
+        margin-bottom: -30px;
+    }
+    .bubble{
+        padding: 10px 10px 10px 30px;
+        font-size: 16px;
+        box-shadow: 0 0 20px 1px rgba(0,0,0,0.2);
+        border-radius: 10px;
+ 
+    }
+    .subscribe{
+        background-color: blue;
+        padding: 50px 20px;
+        position: relative;
+        box-shadow: 0 0 20px 7px rgba(0,0,0,0.8);
+    }
+    .subscribe h1{
+        font-size: 15px;
+    }
+    .subscribe p {
+        font-size: 13px;
+    }
+    .subscribe h3 ,.subscribe p {
+        color: white;
+    }
+    .input-group {
+        max-width: 500px;
+        border-radius: 30px;
+        margin: 10px auto;
+        padding: 5px;
+        background: white;
+    }
+    .subscribe .form-control {
+       background-color: transparent;
+       border: none;
+    }
+    .subscribe .form-control:focus {
+        box-shadow: none;
+        background: transparent;
+    }
+    .subscribe .input-group-append {
+        background: linear-gradient(to right,#1c03b5, #5c8bef);
+        border-radius: 90px;
+    }
+    .subscribe .input-group-text{
+        background: transparent;
+        border: none;
+        color: #fff;
+    }
+
+    .subscribe .btn{
+        box-shadow: none;
+     }
+    
+     #contact-us { 
+        padding: 80px 0px;
+        margin-top: 50px ;
+        background-color: gray;
+        text-align: center;
+     }
+     #contact-us .row{ 
+        margin: 0px ;
+        color: blue;
+    }
+     .col-md-3{
+        /* margin-left: 10px; */
+        padding: 30px 10px;
+     }
+     .col-md-3 img {
+        width: 150px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+     }
+     .col-md-3 h3 {
+        font-size: 18px;
+        margin: 20px 0;
+        color: blue;
+        text-align: left;
+     }
+     .col-md-3 p {
+        font-size: 13px;
+        text-align: left;
+     }
+    
+     #fa-heart{
+        margin-right: 20px;
+     }
+     hr{
+        color: black;
+        width: 80%;
+        /* text-align: center; */
+        margin-left: 10%;
+     }
+     footer h3{
+        text-align: center;
+        font-size: 18px;
+        margin: 20px auto;
+     }
+     #footer-fa-heart{
+        color: red;  
+   }
+   span{
+    font-size: 13px;
+    font-weight: 600;
+   }
+   #colorbtn{
+    color: white;
+    border: none;
+    background: transparent;
+   }
+
+
+   @media screen and (max-width: 992px){
+    .welcome h1{
+        font-size: 25px;
+    }
+    .welcome p{
+        font-size: 13px;
+        font-weight: 600;
+    }
+    #about {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #about .col-md-6{
+        padding: 20px 40px ;
+    }
+    #about .col-md-6 img{
+        width: 590px;
+        margin-left: -200px;
+    }
+    #about .col-md-5 h3{ 
+        font-size: 20px;
+    }
+    #about .col-md-5 p{
+        font-size: 12px;
+    }
+    #about .col-md-5{
+        padding: 30px 20px ;
+    }
+    #feature{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(/Fitness_img/feature-background.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #feature img{
+        padding-top: 60px;
+        margin-left: -100px;
+    }
+    .feature-box{
+        color: white;
+        padding: 40px 20px ;
+    }
+    .feature-right h4{
+        font-size: 19px;
+    }
+    .feature-right p{
+        font-size: 11px;
+    }
+    #ion{
+        font-size: 15px;
+    }
+    #services .col-md-4 h4{
+        font-size: 15px;
+    }
+    #services .col-md-4 p{
+        font-size: 12px;
+    }
+   }
+
+   @media screen and (max-width: 500px){
+    .welcome h1{
+        font-size: 15px;
+    }
+    .welcome p{
+        font-size: 11px;
+        font-weight: 600;
+      
+    }
+    #about {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #about .col-md-6{
+        padding: 20px 40px ;
+    }
+    #about .col-md-6 img{
+        width: 590px;
+        margin-left: -236px;
+        padding: 0 30px;
+
+    }
+    #about .col-md-5 h3{ 
+        font-size: 20px;
+    }
+    #about .col-md-5 p{
+        font-size: 12px;
+    }
+    #about .col-md-5{
+        padding: 30px 20px ;
+    }
+    #services .col-md-4{
+        text-align: center;
+    }
+    #feature{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(/Fitness_img/feature-background.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #feature img{
+        padding-top: 60px;
+        margin-left: -140px;
+        padding: 0 30px;
+    }
+    .feature-box{
+        color: white;
+        padding: 40px 20px ;
+        text-align: center;
+    }
+    .feature-right h4{
+        font-size: 15px;
+    }
+    .feature-right p{
+        font-size: 11px;
+    }
+    #ion{
+        font-size: 15px;
+    }
+    #services .col-md-4 h4{
+        font-size: 15px;
+    }
+    #services .col-md-4 p{
+        font-size: 12px;
+    }
+    .bubble{
+        padding: 10px 10px 10px 30px;
+        font-size: 13px;
+        box-shadow: 0 0 20px 1px rgba(0,0,0,0.2);
+        border-radius: 10px;
+    }
+   }
+   /* @media screen and (max-width: 350px){
+    #feature img{
+        padding-top: 60px;
+        margin-left: -74px;
+    }
+    #about .col-md-6 img{
+        width: 590px;
+        margin-left: -200px;
+    }
+   } */
