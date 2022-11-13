@@ -235,7 +235,8 @@
    }
 
 
-   @media screen and (max-width: 992px){
+   @media screen and (max-width: 952px){
+  
     .welcome h1{
         font-size: 25px;
     }
@@ -296,7 +297,15 @@
     }
    }
 
-   @media screen and (max-width: 500px){
+   @media screen and (max-width: 790px){
+    #header{
+        background-image: url(/Fitness_img/banner.jpg);
+        height: 80vh;
+        background-size: cover;
+        background-position: center ;
+        text-align: right
+    }
+
     .welcome h1{
         font-size: 15px;
     }
